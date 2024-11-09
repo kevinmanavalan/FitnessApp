@@ -1,0 +1,27 @@
+# Ignore the virtual environment folder
+.venv/
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore Django migration files
+myapp/migrations/
+
+# Ignore database files (if SQLite is used)
+*.sqlite3
+
+# Ignore log files
+*.log
+
+# Ignore .env files (for environment variables)
+.env
+
+# Ignore IDE or editor files
+.vscode/
+.idea/
+
+# Ignore OS-specific files (e.g., macOS Finder files)
+.DS_Store
+Thumbs.db
